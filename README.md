@@ -1,5 +1,5 @@
 # Graph Api Manager
-Facebook Graph Api SDKを扱いやすくするラッパーライブラリです。
+Facebook Graph SDKを扱いやすくするラッパーライブラリです。
 
 # Requirement
 * composer
