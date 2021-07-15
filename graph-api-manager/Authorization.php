@@ -64,6 +64,8 @@ class Authorization
                     $response['status'] = 'Authorization Failed';
                     $response['errors']['long_lived_accesstoken_error'] = 'Error getting long lived access token' . $e->getMessage();
                 }
+            } else { // isLongLived == true
+                $longLivedAccessToken = $shortLivedAccessToken;
             }
 
             if (isset($response['status'])) {
